@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            SCRATCH USERS ACTIVITY
+        </title>
+        <h1>
+            SCRATCH USERS ACTIVITY
+        </h1>
+    </head>
+    <body>
+        <br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<textarea id="htmlinput">Scratch username here</textarea>
+<br>
+Copy link :
+<br>
+<br>
+http://scratch.mit.edu/messages/ajax/user-activity/?user=
+<div id="target"></div>
+&max=1000000
+<script>$("#htmlinput").on("input",function(){
+  $("#target").html($(this).val());
+});</script>
+    </body>
+</html>
